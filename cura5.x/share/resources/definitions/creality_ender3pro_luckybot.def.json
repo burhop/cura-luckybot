@@ -1,0 +1,33 @@
+{
+    "name": "Creality Ender-3 Pro with Luckybot",
+    "version": 2,
+    "inherits": "creality_base",
+    "metadata": {
+        "quality_definition": "creality_base",
+        "visible": true,
+        "author": "burhop.github.io",
+        "preferred_variant_name": "1.0mm Nozzle",
+        "preferred_quality_type": "standard",
+        "platform": "creality_ender3_luckybot.3mf",
+        "machine_extruder_trains": {
+            "0": "creality_base_extruder_0_luckybot"   
+        }
+    },
+    "overrides": {
+        "machine_name": { "default_value": "Creality Ender-3 Pro with Luckybot" },
+        "machine_width": { "default_value": 200 },
+        "machine_depth": { "default_value": 200 },
+        "machine_height": { "default_value": 100 },
+        "machine_head_with_fans_polygon": { "default_value": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+            ]
+        },
+        "machine_start_gcode": {
+            "default_value": "; Ender 3 Custom Start G-code\n; when used with Luckybot extruder\n; Mark Burhop V0.1\n'# Set temperature of extruder to 28 (uncomment to override cura profile)\n#M104 S28\n# Set temperature of bed\n#M140 S28\n# Set minimum extrder temperature (0=always allow extursion)\nM302 S0\n# Set Axis steps per unit to 750 \nM92 E750\n"
+        },
+         "gantry_height": { "value": 25 }
+    }
+}

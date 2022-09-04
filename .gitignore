@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#LuckyBot Release artifacts
+Ender3LuckyBotProfiles.zip
+windows-scripts/Ender3LuckyBotProfiles/

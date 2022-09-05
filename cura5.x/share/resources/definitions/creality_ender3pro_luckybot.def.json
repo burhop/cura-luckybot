@@ -6,7 +6,7 @@
         "quality_definition": "creality_base",
         "visible": true,
         "author": "burhop.github.io",
-        "preferred_variant_name": "1.0mm Nozzle",
+        "preferred_variant_name": "0.84mm Nozzle",
         "preferred_quality_type": "standard",
         "platform": "creality_ender3_luckybot.3mf",
         "machine_extruder_trains": {
@@ -26,7 +26,7 @@
             ]
         },
         "machine_start_gcode": {
-            "default_value": "; Ender 3 Custom Start G-code\n; when used with Luckybot extruder\n; Mark Burhop V0.1\n'# Set temperature of extruder to 28 (uncomment to override cura profile)\n#M104 S28\n# Set temperature of bed\n#M140 S28\n# Set minimum extrder temperature (0=always allow extursion)\nM302 S0\n# Set Axis steps per unit to 750 \nM92 E750\n"
+            "default_value": "; Ender 3 Custom Start G-code\n; when used with Luckybot extruder\n; Mark Burhop V0.2\n'# Set temperature of extruder to 28 (uncomment to override cura profile)\n#M104 S28\n# Set temperature of bed\n#M140 S28\n# Set minimum extrder temperature (0=always allow extursion)\nM302 S0\n# Set Axis steps per unit to 750 \nM92 E750\nG28 ; Home all axes\nG1 Z20.0 F3000 ; Move Z Axis up to prevent scratching of Bed and to jump over clips or magnets\n"
         },
          "gantry_height": { "value": 25 }
     }

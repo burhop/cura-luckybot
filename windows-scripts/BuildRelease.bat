@@ -2,6 +2,7 @@ REM Creates a Zip for people to install
 rmdir Ender3LuckyBotProfiles
 del Ender3LuckyBotProfiles.zip
 mkdir Ender3LuckyBotProfiles
+copy /y  ..\LICENSE Ender3LuckyBotProfiles
 copy /y   README.txt Ender3LuckyBotProfiles
 copy /y  "..\cura5.x\share\resources\materials\chocolate.xml.fdm_material" Ender3LuckyBotProfiles
 copy /y  "..\cura5.x\share\resources\definitions\creality_ender3pro_luckybot.def.json" Ender3LuckyBotProfiles

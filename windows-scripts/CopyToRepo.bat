@@ -6,4 +6,5 @@ copy /y "C:\Program Files\Ultimaker Cura 5.1.0\share\cura\resources\extruders\cr
 copy /y "C:\Program Files\Ultimaker Cura 5.1.0\share\cura\resources\meshes\creality_ender3_luckybot.3mf" "D:\development\repos\cura-luckybot\cura5.x\share\resources\meshes\creality_ender3_luckybot.3mf"
 copy /y "C:\Program Files\Ultimaker Cura 5.1.0\share\cura\resources\quality\creality\base\base_global_standard_luckybot.inst.cfg" "D:\development\repos\cura-luckybot\cura5.x\share\resources\quality\creality\base\base_global_standard_luckybot.inst.cfg" 
 copy /y "C:\Program Files\Ultimaker Cura 5.1.0\share\cura\resources\variants\creality_ender3pro_luckybot1.0.inst.cfg" "D:\development\repos\cura-luckybot\cura5.x\share\resources\variants\creality_ender3pro_luckybot1.0.inst.cfg"
+copy /y "C:\Program Files\Ultimaker Cura 5.1.0\share\cura\resources\variants\creality_ender3pro_luckybot0.84.inst.cfg" "D:\development\repos\cura-luckybot\cura5.x\share\resources\variants\creality_ender3pro_luckybot0.84.inst.cfg"
 pause

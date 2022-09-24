@@ -3,7 +3,7 @@
     "name": "Luckybot",
     "inherits": "fdmextruder",
     "metadata": {
-        "machine": "creality_base",
+        "machine": "creality_ender3pro_luckybot",
         "position": "0"
     },
 
